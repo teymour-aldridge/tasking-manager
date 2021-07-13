@@ -9448,12 +9448,15 @@ jsprim@^1.2.2:
     array-includes "^3.1.2"
     object.assign "^4.1.2"
 
-jszip@^2.4.0:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/jszip/-/jszip-2.6.1.tgz#b88f3a7b2e67a2a048152982c7a3756d9c4828f0"
-  integrity sha1-uI86ey5noqBIFSmCx6N1bZxIKPA=
+jszip@^3.5.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.6.0.tgz#839b72812e3f97819cc13ac4134ffced95dd6af9"
+  integrity sha512-jgnQoG9LKnWO3mnVNBnfhkh0QknICd1FGSrXcgrl67zioyJ4wgx25o9ZqwNtrROSflGBCGYnJfjrIyRIby1OoQ==
   dependencies:
+    lie "~3.3.0"
     pako "~1.0.2"
+    readable-stream "~2.3.6"
+    set-immediate-shim "~1.0.1"
 
 kdbush@^3.0.0:
   version "3.0.0"
@@ -9552,7 +9555,7 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lie@^3.0.1:
+lie@^3.0.1, lie@~3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/lie/-/lie-3.3.0.tgz#dcf82dee545f46074daf200c7c1c5a08e0f40f6a"
   integrity sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==
@@ -13337,6 +13340,11 @@ set-cookie-parser@^2.4.6:
   resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.4.8.tgz#d0da0ed388bc8f24e706a391f9c9e252a13c58b2"
   integrity sha512-edRH8mBKEWNVIVMKejNnuJxleqYE/ZSdcT8/Nem9/mmosx12pctd80s2Oy00KNZzrogMZS5mauK2/ymL1bvlvg==
 
+set-immediate-shim@~1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz#4b2b1b27eb808a9f8dcc481a58e5e56f599f3f61"
+  integrity sha1-SysbJ+uAip+NzEgaWOXlb1mfP2E=
+
 set-value@^2.0.0, set-value@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.1.tgz#a18d40530e6f07de4228c7defe4227af8cad005b"
@@ -13418,12 +13426,12 @@ short-number@^1.0.7:
   resolved "https://registry.yarnpkg.com/short-number/-/short-number-1.0.7.tgz#5ab8021b86f20a4bdd1bbe01a85c22ff1cd15514"
   integrity sha512-e3cb811QXHiAH2H5rgZwXHsmg2+aG6XK0QyKF/+pyDIZFBSz/G8bkr8avdBrL5PVIfhIq8rlohjFvSB3azzpEQ==
 
-shpjs@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/shpjs/-/shpjs-3.6.3.tgz#91fbbddbe16230befe4c63013d82189ec03f3fb9"
-  integrity sha512-wcR2S3WL/7RnEIm+YO+H/mZR9z9FCV46op+SZt+W5PtPs26Omb9U93f+EPI1DOpNKBuAIrWjHWh0SxlnBahJkg==
+shpjs@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/shpjs/-/shpjs-4.0.2.tgz#8367922f7a5c3443f4b433b7380ddccce5a7d2e1"
+  integrity sha512-yiyc7FyOCnVeF6UiJmKMxg5P/x0MQIUnH3m+OhFb2eic39WZo40b7jxh+zkhj309kA2Hh2t5La+kFv8Im94C3g==
   dependencies:
-    jszip "^2.4.0"
+    jszip "^3.5.0"
     lie "^3.0.1"
     lru-cache "^2.7.0"
     parsedbf "^1.1.0"
